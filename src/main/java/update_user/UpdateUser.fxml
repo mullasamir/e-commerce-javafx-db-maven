@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E3F2FD; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="update_user.UpdateUserController">
+   <children>
+      <Label alignment="CENTER" layoutX="190.0" layoutY="14.0" prefHeight="30.0" prefWidth="220.0" style="-fx-font-weight: bold;" text="User Management" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="UpdateUser" contentDisplay="CENTER" layoutX="208.0" layoutY="327.0" mnemonicParsing="false" onAction="#updateUserButton" prefHeight="43.0" prefWidth="182.0" style="-fx-background-color: #2196F3; -fx-text-fill: black; -fx-font-weight: bold;" text="Update User">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="126.0" layoutY="51.0" prefHeight="30.0" prefWidth="346.0" style="-fx-font-weight: bold;" text="Update User" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="136.0" style="-fx-font-weight: bold;" text="enter first name" />
+      <Label layoutX="345.0" layoutY="136.0" style="-fx-font-weight: bold;" text="enter last name" />
+      <Label layoutX="344.0" layoutY="181.0" style="-fx-font-weight: bold;" text="enter gender" />
+      <TextField fx:id="new_fname" layoutX="199.0" layoutY="132.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField fx:id="new_gender" layoutX="468.0" layoutY="177.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField fx:id="new_lname" layoutX="468.0" layoutY="131.0" prefHeight="26.0" prefWidth="116.0" />
+      <Label layoutX="344.0" layoutY="92.0" style="-fx-font-weight: bold;" text="Enter new email" />
+      <TextField fx:id="new_email" layoutX="468.0" layoutY="87.0" prefHeight="26.0" prefWidth="116.0" />
+      <Label fx:id="updateMsg" layoutX="434.0" layoutY="349.0" prefHeight="18.0" prefWidth="53.0" />
+      <Label layoutX="32.0" layoutY="93.0" style="-fx-font-weight: bold;" text="Enter User Email To Update" />
+      <TextField fx:id="mailIdToUpdate" layoutX="199.0" layoutY="88.0" prefHeight="26.0" prefWidth="116.0" />
+      <Label layoutX="32.0" layoutY="181.0" style="-fx-font-weight: bold;" text="enter age" />
+      <TextField fx:id="new_age" layoutX="199.0" layoutY="177.0" prefHeight="26.0" prefWidth="116.0" />
+      <Label layoutX="345.0" layoutY="236.0" style="-fx-font-weight: bold;" text="enter password" />
+      <TextField fx:id="new_pass" layoutX="468.0" layoutY="233.0" prefHeight="26.0" prefWidth="116.0" />
+   </children>
+</AnchorPane>

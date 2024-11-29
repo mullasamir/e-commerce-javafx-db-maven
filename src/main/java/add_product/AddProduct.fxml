@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E3F2FD; -fx-border-color: black;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_product.AddProductScreen">
+   <children>
+      <Label alignment="CENTER" layoutX="190.0" layoutY="14.0" prefHeight="30.0" prefWidth="220.0" style="-fx-font-weight: bold;" text="Product Management" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="addProduct" contentDisplay="CENTER" layoutX="236.0" layoutY="298.0" mnemonicParsing="false" onAction="#addProductButton" prefHeight="30.0" prefWidth="146.0" style="-fx-background-color: #2196F3; -fx-text-fill: black; -fx-font-weight: bold;" text="Add Product">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="126.0" layoutY="51.0" prefHeight="30.0" prefWidth="346.0" style="-fx-font-weight: bold;" text="Add Product" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="148.0" style="-fx-font-weight: bold;" text="Enter Product Name" />
+      <Label layoutX="150.0" layoutY="191.0" style="-fx-font-weight: bold;" text="Enter Product Quantity" />
+      <Label layoutX="150.0" layoutY="242.0" style="-fx-font-weight: bold;" text="Enter Product Price" />
+      <TextField fx:id="pname" layoutX="352.0" layoutY="143.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField fx:id="pprc" layoutX="352.0" layoutY="237.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField fx:id="pqty" layoutX="352.0" layoutY="187.0" prefHeight="26.0" prefWidth="116.0" />
+      <Label layoutX="147.0" layoutY="109.0" style="-fx-font-weight: bold;" text="Enter Product Id" />
+      <TextField fx:id="prod_id" layoutX="352.0" layoutY="104.0" prefHeight="26.0" prefWidth="116.0" />
+   </children>
+</AnchorPane>
